@@ -1,17 +1,23 @@
 # PyBer_Analysis
 
-- Import your data into a Pandas DataFrame.
-- Merge your DataFrames.
-- Create a bubble chart that showcases the average fare versus the total number of rides with bubble size based on the total number of drivers for each city type, including urban, suburban, and rural.
-- Determine the mean, median, and mode for the following:
-    - The total number of rides for each city type.
-    - The average fares for each city type.
-    - The total number of drivers for each city type.
-- Create box-and-whisker plots that visualize each of the following to determine if there are any outliers:
-    - The number of rides for each city type.
-    - The fares for each city type.
-    - The number of drivers for each city type.
-- Create a pie chart that visualizes each of the following data for each city type:
-    - The percent of total fares.
-    - The percent of total rides.
-    - The percent of total drivers.
+## overview
+This project is using the ridecompany data to conduct a market analysis to understand the consumer needs and trend.  
+
+
+## Result
+
+### Analysis by City Types
+The charts below presented the relationship between city type and the total number of rides. It is obvious Ubban has a much higher demand.
+![Fig1.png](analysis/Fig1.png)  
+![Fig2.png](analysis/Fig2.png)  
+![Fig5.png](analysis/Fig5.png)  
+
+## Summary
+
+![ride_summary.png](analysis/ride_summary.png)  
+
+![fare_summary.png](analysis/fare_summary.png)  
+
+- Urban cities have most number of rides and total fare. It has a higher demand for riding services for future development to increase drivers.
+- Rural cities have the leaset total number of rides and total fare, but highest average fare per ride and driver. Company can consider incentive program on for longer rides to attact more customer
+- The suburban city type is the middle performing city type in the metrics. Company can consider combination of marketing and incentive programs to attact customer in this area. 
